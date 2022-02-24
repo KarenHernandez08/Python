@@ -52,7 +52,44 @@ Es hora de abrir nuestro IDE y nuestros archivos se veran así:
 
 ![](https://github.com/KarenHernandez08/Python/blob/main/imagenes/py.PNG)
 
+ahora para correrlo, regresarnos al cmd y colocar este comando, debido a que no hemos colocado nada, necesitamos hacer migraciones primero 
 
+```
+// este es para migrar
+python manage.py migrate
+// este ya es oara que corra en nuestro localhost
+python manage.py runserver 0.0.0.0:3000
+
+```
+En nuestro buscador de internet colocaremos `localhost:3000`
+![](https://github.com/KarenHernandez08/Python/blob/main/imagenes/local.PNG)
+
+Ahora vamos a `localhost:3000/admin`
+![](https://github.com/KarenHernandez08/Python/blob/main/imagenes/admin.PNG)
+
+Vamos a crear el administrador, para eso nos vamos al cmd 
+
+```
+python manage.py createsuperuser
+```
+
+Nos va a pedir 
+ - Usuario 
+ - Correo
+ - Contraseña
+ - Validazión de contraseña
+
+Volvemos a correr nuestro pruyecto con `python manage.py runserver 0.0.0.0:3000`, nos vamos a nueestro buscador y colocamos `localhost:3000/admin` ahora colocaremos el username y el password que le colocamos en el cmd 
+
+![](https://github.com/KarenHernandez08/Python/blob/main/imagenes/admins.PNG)
+
+por ultimo para crear una aplicación dentro de nuestro proyecto vamos al cmd y ponemos:
+
+```
+python manage.py startapp nombre_app
+```
+A la hora de abrir nuestro proyecto en el IDE ahora se veran también las aplicaciones creadas
+![](https://github.com/KarenHernandez08/Python/blob/main/imagenes/app.PNG)
 
 
 
