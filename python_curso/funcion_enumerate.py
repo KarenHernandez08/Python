@@ -18,3 +18,19 @@ rango= range(1,10,2) #va del 0 al 10
 
 for valor in rango:
     print(valor)
+
+"""
+         Función enumerate
+la función enumerate nos permite enuerar cada uno
+de los elementos de una colección
+
+Regresa una tupla con dos valores, el primero hace referencia al 
+índice del elemento dentro de la colección y el segundo al elemento perce de
+la coleccón (el valor)
+"""
+
+
+numeros= [10,20,30,40,50]
+
+for indice, numero in enumerate(numeros):
+    print(indice, numero)
