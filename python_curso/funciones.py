@@ -17,4 +17,25 @@ def suma():
 
 suma()
 
+"""
+      Funciones con 2 parametros
+Las funciones la mayoria de veces necesitan valores de entradas
+variables como parametros
+va el def, despues el nombre y en el parentesis van a ir los 
+parametros, se van a separar por una ","
+
+Las variables parametros son unicamente declarados por el uso del bloque
+Los valores de entrada se conocen como argumentos
+"""
+
+def suma(numero_uno, numero_dos):
+    
+    resultado = numero_uno + numero_dos
+    print(resultado)
+
+numero_uno = int(input("Ingresa el primer numero: "))
+numero_dos = int(input("Ingresa el segundo numero: "))
+
+suma(numero_uno, numero_dos)
+
 
