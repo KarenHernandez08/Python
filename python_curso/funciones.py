@@ -38,4 +38,3 @@ numero_dos = int(input("Ingresa el segundo numero: "))
 
 suma(numero_uno, numero_dos)
 
-
