@@ -38,3 +38,29 @@ numero_dos = int(input("Ingresa el segundo numero: "))
 
 suma(numero_uno, numero_dos)
 
+"""Retornar valores
+Una función nos permite retornar varios valores y solo es colocar 
+la palabra return y los valores se separan con una "," 
+"""
+
+def suma(numero_uno, numero_dos):
+    
+    return numero_uno + numero_dos
+    
+
+numero_uno = int(input("Ingresa el primer numero: "))
+numero_dos = int(input("Ingresa el segundo numero: "))
+
+resultado = suma(numero_uno, numero_dos)
+
+print("El resultado es: ", resultado)
+
+
+"""Los parametros pueden ser opcionales
+siempre se ponen de lado derecho si es que hay más parametros"""
+def area_circulo(radio, pi=3.14):
+    return pi* (radio** 2)
+
+resultado = area_circulo(10)
+print (resultado)
+
