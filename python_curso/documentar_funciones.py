@@ -15,7 +15,13 @@ def suma(n1, n2):
 
     TODO:
         +
+
+    >>> suma(10,20)
+    30
+    >>> suma(100,200)
+    300
     """
     return n1 + n2
 #print(suma.__doc__) #esto da la documentación 
 print(help(suma))# esta también nos ayudara a dar la documentación
+
