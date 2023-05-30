@@ -24,4 +24,14 @@ print(Usuario.username) #clase + . + el atributo ya sea para lectura o modificar
 
 
 #atributos de instancia
+#__dict__
 
+"""
+1.Verifica si el atributo existe dentro del objeto
+2. Verifica si el atributo esta dentro de la clase -> lectura
+3. si no encuentra el atributo manda error
+"""
+user1 = Usuario()
+print(user1.username)
+
+print(user1.__dict__)#almacena en un dicctionario los atributos que tiene el objeto
